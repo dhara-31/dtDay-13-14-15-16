@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:id="@+id/viewIdData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Data"></Button>
+
+
+    <EditText
+        android:id="@+id/qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:inputType="number"></EditText>
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="number"></EditText>
+
+    <Button
+        android:id="@+id/btn_total_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="total price"></Button>
+
+    <TextView
+        android:id="@+id/showqp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <Button
+        android:id="@+id/btn_sp_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="share prefrance detail"></Button>
+
+
+</LinearLayout>
